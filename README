@@ -1,0 +1,9 @@
+Personal Dotfiles for linux arch laptop running:
+i3-gaps
+polybar
+rofi
+termite
+zathura
+vim
+
+Also running pywal to update colours based on wallpaper

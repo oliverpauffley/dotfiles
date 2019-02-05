@@ -1,0 +1,102 @@
+[0;4mUNIT                                                                                        LOAD   ACTIVE SUB       DESCRIPTION                                                                  [0m
+[0;4mproc-sys-fs-binfmt_misc.automount                                                           loaded active waiting   Arbitrary Executable File Formats File System Automount Point                [0m
+sys-devices-pci0000:00-0000:00:06.0-usb4-4\x2d1-4\x2d1.3-4\x2d1.3:1.0-bluetooth-hci0.device loaded active plugged   /sys/devices/pci0000:00/0000:00:06.0/usb4/4-1/4-1.3/4-1.3:1.0/bluetooth/hci0 
+sys-devices-pci0000:00-0000:00:08.0-sound-card0.device                                      loaded active plugged   MCP79 High Definition Audio (Apple iMac 9,1)                                 
+sys-devices-pci0000:00-0000:00:0a.0-net-enp0s10.device                                      loaded active plugged   MCP79 Ethernet (Apple iMac 9,1)                                              
+sys-devices-pci0000:00-0000:00:0b.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device    loaded active plugged   HGST_HTS545050A7E680 1                                                       
+sys-devices-pci0000:00-0000:00:0b.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda2.device    loaded active plugged   HGST_HTS545050A7E680 2                                                       
+sys-devices-pci0000:00-0000:00:0b.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda3.device    loaded active plugged   HGST_HTS545050A7E680 3                                                       
+sys-devices-pci0000:00-0000:00:0b.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device         loaded active plugged   HGST_HTS545050A7E680                                                         
+sys-devices-pci0000:00-0000:00:0b.0-ata2-host1-target1:0:0-1:0:0:0-block-sr0.device         loaded active plugged   MATSHITADVD-R_UJ-898                                                         
+sys-devices-pci0000:00-0000:00:15.0-0000:03:00.0-bcma0:1-net-wlp3s0b1.device                loaded active plugged   BCM43224 802.11a/b/g/n (AirPort Extreme)                                     
+sys-devices-platform-serial8250-tty-ttyS0.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS0                                   
+sys-devices-platform-serial8250-tty-ttyS1.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1                                   
+sys-devices-platform-serial8250-tty-ttyS2.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2                                   
+sys-devices-platform-serial8250-tty-ttyS3.device                                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3                                   
+sys-devices-virtual-misc-rfkill.device                                                      loaded active plugged   /sys/devices/virtual/misc/rfkill                                             
+sys-module-configfs.device                                                                  loaded active plugged   /sys/module/configfs                                                         
+sys-subsystem-bluetooth-devices-hci0.device                                                 loaded active plugged   /sys/subsystem/bluetooth/devices/hci0                                        
+sys-subsystem-net-devices-enp0s10.device                                                    loaded active plugged   MCP79 Ethernet (Apple iMac 9,1)                                              
+[0;4msys-subsystem-net-devices-wlp3s0b1.device                                                   loaded active plugged   BCM43224 802.11a/b/g/n (AirPort Extreme)                                     [0m
+-.mount                                                                                     loaded active mounted   Root Mount                                                                   
+boot.mount                                                                                  loaded active mounted   /boot                                                                        
+dev-hugepages.mount                                                                         loaded active mounted   Huge Pages File System                                                       
+dev-mqueue.mount                                                                            loaded active mounted   POSIX Message Queue File System                                              
+run-user-1000.mount                                                                         loaded active mounted   /run/user/1000                                                               
+sys-kernel-config.mount                                                                     loaded active mounted   Kernel Configuration File System                                             
+sys-kernel-debug.mount                                                                      loaded active mounted   Kernel Debug File System                                                     
+[0;4mtmp.mount                                                                                   loaded active mounted   Temporary Directory (/tmp)                                                   [0m
+systemd-ask-password-console.path                                                           loaded active waiting   Dispatch Password Requests to Console Directory Watch                        
+[0;4msystemd-ask-password-wall.path                                                              loaded active waiting   Forward Password Requests to Wall Directory Watch                            [0m
+init.scope                                                                                  loaded active running   System and Service Manager                                                   
+[0;4msession-2.scope                                                                             loaded active running   Session 2 of user stoker                                                     [0m
+dbus.service                                                                                loaded active running   D-Bus System Message Bus                                                     
+dhcpcd.service                                                                              loaded active running   dhcpcd on all interfaces                                                     
+kmod-static-nodes.service                                                                   loaded active exited    Create list of required static device nodes for the current kernel           
+lightdm.service                                                                             loaded active running   Light Display Manager                                                        
+lvm2-lvmetad.service                                                                        loaded active running   LVM2 metadata daemon                                                         
+lvm2-monitor.service                                                                        loaded active exited    Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+polkit.service                                                                              loaded active running   Authorization Manager                                                        
+systemd-fsck@dev-disk-by\x2duuid-FE5C\x2d0AEA.service                                       loaded active exited    File System Check on /dev/disk/by-uuid/FE5C-0AEA                             
+systemd-journal-flush.service                                                               loaded active exited    Flush Journal to Persistent Storage                                          
+systemd-journald.service                                                                    loaded active running   Journal Service                                                              
+systemd-logind.service                                                                      loaded active running   Login Service                                                                
+systemd-random-seed.service                                                                 loaded active exited    Load/Save Random Seed                                                        
+systemd-remount-fs.service                                                                  loaded active exited    Remount Root and Kernel File Systems                                         
+systemd-sysctl.service                                                                      loaded active exited    Apply Kernel Variables                                                       
+systemd-tmpfiles-setup-dev.service                                                          loaded active exited    Create Static Device Nodes in /dev                                           
+systemd-tmpfiles-setup.service                                                              loaded active exited    Create Volatile Files and Directories                                        
+systemd-udev-trigger.service                                                                loaded active exited    udev Coldplug all Devices                                                    
+systemd-udevd.service                                                                       loaded active running   udev Kernel Device Manager                                                   
+systemd-update-utmp.service                                                                 loaded active exited    Update UTMP about System Boot/Shutdown                                       
+systemd-user-sessions.service                                                               loaded active exited    Permit User Sessions                                                         
+user-runtime-dir@1000.service                                                               loaded active exited    User Runtime Directory /run/user/1000                                        
+user@1000.service                                                                           loaded active running   User Manager for UID 1000                                                    
+[0;4mwpa_supplicant.service                                                                      loaded active running   WPA supplicant                                                               [0m
+-.slice                                                                                     loaded active active    Root Slice                                                                   
+system-dhcpcd.slice                                                                         loaded active active    system-dhcpcd.slice                                                          
+system-getty.slice                                                                          loaded active active    system-getty.slice                                                           
+system-systemd\x2dfsck.slice                                                                loaded active active    system-systemd\x2dfsck.slice                                                 
+system.slice                                                                                loaded active active    System Slice                                                                 
+user-1000.slice                                                                             loaded active active    User Slice of UID 1000                                                       
+[0;4muser.slice                                                                                  loaded active active    User and Session Slice                                                       [0m
+dbus.socket                                                                                 loaded active running   D-Bus System Message Bus Socket                                              
+dm-event.socket                                                                             loaded active listening Device-mapper event daemon FIFOs                                             
+lvm2-lvmetad.socket                                                                         loaded active running   LVM2 metadata daemon socket                                                  
+lvm2-lvmpolld.socket                                                                        loaded active listening LVM2 poll daemon socket                                                      
+systemd-coredump.socket                                                                     loaded active listening Process Core Dump Socket                                                     
+systemd-initctl.socket                                                                      loaded active listening initctl Compatibility Named Pipe                                             
+systemd-journald-audit.socket                                                               loaded active running   Journal Audit Socket                                                         
+systemd-journald-dev-log.socket                                                             loaded active running   Journal Socket (/dev/log)                                                    
+systemd-journald.socket                                                                     loaded active running   Journal Socket                                                               
+systemd-rfkill.socket                                                                       loaded active listening Load/Save RF Kill Switch Status /dev/rfkill Watch                            
+systemd-udevd-control.socket                                                                loaded active running   udev Control Socket                                                          
+[0;4msystemd-udevd-kernel.socket                                                                 loaded active running   udev Kernel Socket                                                           [0m
+[0;4mdev-disk-by\x2duuid-9e8eea05\x2d3720\x2d4ac2\x2daa53\x2d23f873b30e34.swap                   loaded active active    /dev/disk/by-uuid/9e8eea05-3720-4ac2-aa53-23f873b30e34                       [0m
+basic.target                                                                                loaded active active    Basic System                                                                 
+bluetooth.target                                                                            loaded active active    Bluetooth                                                                    
+cryptsetup.target                                                                           loaded active active    Local Encrypted Volumes                                                      
+getty.target                                                                                loaded active active    Login Prompts                                                                
+graphical.target                                                                            loaded active active    Graphical Interface                                                          
+local-fs-pre.target                                                                         loaded active active    Local File Systems (Pre)                                                     
+local-fs.target                                                                             loaded active active    Local File Systems                                                           
+multi-user.target                                                                           loaded active active    Multi-User System                                                            
+network.target                                                                              loaded active active    Network                                                                      
+paths.target                                                                                loaded active active    Paths                                                                        
+remote-fs.target                                                                            loaded active active    Remote File Systems                                                          
+slices.target                                                                               loaded active active    Slices                                                                       
+sockets.target                                                                              loaded active active    Sockets                                                                      
+sound.target                                                                                loaded active active    Sound Card                                                                   
+swap.target                                                                                 loaded active active    Swap                                                                         
+sysinit.target                                                                              loaded active active    System Initialization                                                        
+[0;4mtimers.target                                                                               loaded active active    Timers                                                                       [0m
+logrotate.timer                                                                             loaded active waiting   Daily rotation of log files                                                  
+shadow.timer                                                                                loaded active waiting   Daily verification of password and group files                               
+systemd-tmpfiles-clean.timer                                                                loaded active waiting   Daily Cleanup of Temporary Directories                                       
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+[0;1;39m94 loaded units listed.[0m Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
